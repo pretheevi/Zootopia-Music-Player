@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #E0F7E9; /* Light Mint Green */
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E0F7E9;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #FF6F61;
+  padding: 20px;
+  border-radius: 5px;
+  width: 450px;
+  height: 600px;
+  align-items: center;
+  border: 8px solid #2E7D32;
+}
+
+#carouselExampleCaptions{
+  align-items: center;
+}
+
+.title{
+  margin-top: 40px;
+  text-align: center;
+}
+.heading{
+  color: white;
+  font-size: 20px;
+}
+#progress{
+  -webkit-appearance: none;
+  width: 90%;
+  height: 5px;
+  margin-top: 30px;
+  background-color: #A3DFFF;
+  border-radius: 10px;
+  outline: none;
+}
+
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: hsl(36, 100%, 52%); /* Bright Orange */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-slide{
+  width: 400px;
+  height: 230px;
+}
+
+.controls div{
+  background-color: #FFA726;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #43A047;
+}
+.controls div:nth-child(2){
+  transform: scale(1.5);
+}
+.controls div:hover{
+  color: #76FF03;
+  cursor: pointer;
+}
